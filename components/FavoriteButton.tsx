@@ -26,7 +26,6 @@ const FavoriteButton: FC<FavoriteButtonProps> = ({movieId}) => {
       response = await axios.delete('/api/favorite', {data: {movieId}})
     }else{
       response = await axios.post('/api/favorite', {movieId});
-      console.log(response)
     }
 
     const updatedFavoritesIds = response?.data?.favorites;
