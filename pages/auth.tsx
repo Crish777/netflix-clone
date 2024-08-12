@@ -50,7 +50,7 @@ const Auth = () => {
   );
 
   return (
-    <div className="relative min-h-screen w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
+    <div className="relative min-h-screen w-full bg-[url('/images/hero1.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
       <div className="bg-black w-full min-h-screen lg:bg-opacity-50">
         <nav className="px-12 py-5">
           <div className="siteLogo h-12 w-24 bg-[url('/images/logo.png')] bg-center bg-contain bg-no-repeat" />
