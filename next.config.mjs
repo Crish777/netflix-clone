@@ -8,7 +8,7 @@ const nextConfig = {
         hostname: 'upload.wikimedia.org',
       },
       {
-        protocol: 'http',
+        protocol: 'https',
         hostname: 'uhdtv.io',
       },
       {
