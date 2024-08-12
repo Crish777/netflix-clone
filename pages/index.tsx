@@ -36,6 +36,9 @@ export default function Home() {
 
   return (
     <>
+      <p className="text-red-700 font-bold">
+        Este sitio es un proyecto demostrativo y no está afiliado con Netflix. No se recopila ninguna información real.
+      </p>
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
@@ -43,6 +46,7 @@ export default function Home() {
         <MovieList title="Trending Now" data={movies} />
         <MovieList title="My List" data={favorites} />
       </div>
+      
     </>
   );
 }

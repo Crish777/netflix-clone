@@ -28,6 +28,11 @@ const Profiles = () => {
   const router = useRouter();
   const {data:user} = useCurrentUser();
   return (
+    <>
+      <p className="text-red-700 font-bold">
+        Este sitio es un proyecto demostrativo y no está afiliado con Netflix. No se recopila ninguna información real.
+      </p>
+    
     <div className='flex items-center h-full justify-center'>
       <div className='flex flex-col '>
         <h1 className='text-3xl md:text-6xl text-white text-center'>Who is watching?</h1>
@@ -59,6 +64,7 @@ const Profiles = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

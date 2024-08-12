@@ -50,6 +50,10 @@ const Auth = () => {
   );
 
   return (
+    <>
+      <p className="text-red-700 font-bold">
+        Este sitio es un proyecto demostrativo y no está afiliado con Netflix. No se recopila ninguna información real.
+      </p>
     <div className="relative min-h-screen w-full bg-[url('/images/hero1.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
       <div className="bg-black w-full min-h-screen lg:bg-opacity-50">
         <nav className="px-12 py-5">
@@ -119,6 +123,7 @@ const Auth = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
