@@ -44,7 +44,7 @@ const Navbar = () => {
     setShowAccountMenu(current => !current);
   }, []);
   return (
-    <nav className="w-full fixed z-40">
+    <nav className="w-full fixed z-40 top-0">
       <div className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-500 ${showBackground ? 'bg-zinc-900 bg-opacity-90' : ''}`}>
         <div className="h-4 lg:h-7 relative w-16 lg:w-24">
           <Image src="/images/logo1.png" alt="Logo" fill className="object-cover" />
